@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_serial_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextSerialCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#30ff"
+        android:ems="10"
+        android:hint="@string/serial_code_hint"
+        android:inputType="number"
+        android:maxLength="6"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:autofillHints="@string/enter_serial_number" />
+
+    <Button
+        android:id="@+id/buttonVerifyProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#008577"
+        android:text="@string/verify_product"
+        android:textColor="#fff" />
+
+</LinearLayout>

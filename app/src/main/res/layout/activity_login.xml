@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/matrix"
+    tools:context=".loginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign In"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#30ff"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/common_google_signin_btn_text_dark"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:background="#30ff"
+        android:layout_below="@id/username"
+        android:hint="Password"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="20dp"
+        android:elevation = "20dp"
+        android:drawableTint="@color/common_google_signin_btn_text_dark"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation = "20dp"
+        android:backgroundTint="#AFE2B7"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ForgotPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign up"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textStyle="bold"
+        android:elevation="20dp"
+        android:clickable="true"
+        android:onClick="navigateToSignup"
+        tools:ignore="OnClick,RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="20dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/common_google_signin_btn_text_dark" />
+</RelativeLayout>

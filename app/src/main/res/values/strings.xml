@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CounterfeitOps</string>
+    <string name="login_page">Login Page</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="take_barcode_picture">Take Barcode Picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_signup">signup</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_serial_code">Enter Serial Code</string>
+    <string name="email">Email</string>
+    <string name="title_activity_serial_code">serialCodeActivity</string>
+    <string name="serial_code_hint">serialCodeHint</string>
+    <string name="enter_serial_number">Enter 6 digit Serial number</string>
+    <string name="verify_product">Verify Product</string>
+
+</resources>
